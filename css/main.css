@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{background-color: #E1E2E1; }
+
+h1{ font: bold 30px Baloo Bhai, cursive; }
+h2{ font: bold 20px Montserrat, sans-serif; }
+#inic { font: bold 28px Cinzel, serif;}
+span{ font: bold 28px Open Sans Condensed, sans-serif;}
+
+img { border: 2px solid #EF4836; vertical-align: middle; margin-right: 15px;}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup { 
+    display: block;
+}
+
+.input{
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #E1E2E1;
+    border: none;
+    border-bottom: solid #C8C8C8 .2rem;
+}
+
+.input:focus{border-bottom: solid #1976d2 .2rem;}
+
+.boton_form{
+    display: flex;
+    margin: 10px 0px 10px 150px;
+}
+
+.boton_sb{
+    width: 100px;
+    height: 35px;
+    border-bottom: none;
+    background-color: #1976d2;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font: bold 16px Montserrat, sans-serif;;
+}
+
+#inicio{
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    width: 400px;
+    height: 180px;
+    text-align: center;
+    margin: 100px 10px 10px 250px;
+    background-color: #E1E2E1;
+}
+
+article{ 
+    background: white;
+    border: 1px solid #999999;
+    padding: 10px;
+    margin-bottom: 15px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#seccion{
+    float: left;
+    width: 920px;
+    margin: 1px 1px 1px 1px;
+}
+
+#columna{
+    float: left;
+    width: 393px;
+    margin: 1px 1px 1px 1px;
+    padding: 10px;
+    background: #001064;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+}
+
+#menu{ 
+    background: #001064; 
+    padding: 5px 15px; 
+    text-align: right; 
+    border-radius: 5px;
+    height: 30px;
+}
+
+#menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 18px Montserrat, sans-serif;
+    color: white; 
+    background: none;
+    margin-left: 825px; 
+    margin-top: -5px;
+}
+
+#cabecera {
+    background-color: #5f5fc4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#cabecera h1{ color:#E1E2E1; text-align: center; font: bold 80px Permanent marker, cursive;}
+
+#agrupar {
+    width: 1340px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+blockquote{ font: 20px Acme, sans-serif; }
+
+#menunav{ 
+    font: bold 14px Montserrat, sans-serif;
+    color: white; 
+    text-decoration: none;
+}
+
+#headblock blockquote{ 
+    font: bold 20px Montserrat, sans-serif; 
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    list-style: none;
+    display: inline-block;
+}
+
+#text {
+    text-align: center;
+    margin-top: 10px;
+    font: 24px Permanent marker, cursive;
+    background-color: #1976d2;
+    border-radius: 10px;
+}
+
+#contestadas {
+    text-align: center;
+    font: bold 24px Baloo Bhai, cursive;
+    margin-top: -40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.buttons{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.buttons button{
+  cursor: pointer;
+}
+
+.buttons button:focus{
+	outline: 0;
+}
+
+.buttons button:disabled{
+  cursor: not-allowed;
+}
+
+.next,
+.prev,
+.result{
+	padding: 10px 20px;
+	border: 0;
+	background: #fff;
+	border-radius: 3px;
+	margin: 0 5px;
+	font-size: 15px;
+}
+
+#container 
+{
+    width:90%;
+    margin: 50px auto;
+    padding: 50px 30px;
+    background-color: #3f51b5;
+    border-radius:3px;
+    color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    margin-bottom: 10px;
+    
+}
+
+ul 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+}
+ul li
+{
+    background: #223394;
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+    /*display: inline-block;*/ 
+}
+
+#start{width: 100px;}
+
+input[type="radio"]{
+    cursor: pointer;
+}
+
+#tabla {
+    width: 250px;
+    height: 250px;
+    margin: 20px 100px;
+}
+
+td{
+    border: solid 1px white;
+    border-radius: 80px;
+    background-color: gray;
+    font: bold 30px Montserrat, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.w3-container{
+    height: 20px;
+    background-color:#E1E2E1;
+    border-radius: 10px;
+}
+
+.w3-green, .w3-hover-green:hover {
+    color: #fff;
+    background-color: #1976d2;
+}
+
+.w3-center {
+    text-align: center;
+}
+
+
+
+
+
+
+

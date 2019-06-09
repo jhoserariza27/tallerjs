@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<meta charset="utf-8">
+    <TITLE> Test Evaluativo </TITLE>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Acme|Cinzel|Baloo+Bhai|Open+Sans+Condensed:300|Montserrat|Roboto+Condensed|Righteous|Permanent+Marker" rel="stylesheet">
+</HEAD>
+<BODY onload="ocultar()">
+    <div id="agrupar">
+    <header id="cabecera">
+        <h1>TEST EVALUATIVO</h1>
+    </header>
+    <nav id="menu">
+        <ul>
+            <li id="nombre"> </li> 
+        </ul>
+    </nav>
+    <section id="seccion">
+        <article>
+            <div id="inicio">
+                <p id="inic">¿LISTO PARA COMENZAR? <br> <span>Digita tu nombre</span></p>
+                <input type="text" class="input"  maxlength="200"  required autofocus>
+                <div class="boton_form">
+                    <button id="boton" onclick="mostrar()" class="boton_sb">Comenzar</button>
+                </div>
+            </div>
+
+            <div id="container">
+                <h1>Selección Multiple Con Única Respuesta</h1>
+                    <br/>
+                    <div id="quiz"></div>
+                <div class="buttons">
+                    <button class="prev" id="prev">Anterior</button>
+                    <button class="next" id="next" onclick="progresBar()">Siguiente</button>
+                    <button class="result" id="result" onclick="progresBar()">Resultados</button>
+                </div>
+            </div>
+            
+
+        </article>
+    </section>
+
+    <aside id="columna">
+            <blockquote>
+                <div id="text">P R E G U N T A S </div>
+                <table id="tabla">
+                    <tbody>
+                    <tr>
+                      <td id="0" style="width: 60px; height: 60px">1</td>
+                      <td id="1" style="width: 60px; height: 60px">2</td>
+                      <td id="2" style="width: 60px; height: 60px">3</td>
+                    </tr>
+                    <tr>
+                      <td id="3" style="width: 60px; height: 60px">4</td>
+                      <td id="4" style="width: 60px; height: 60px">5</td>
+                      <td id="5" style="width: 60px; height: 60px">6</td>
+                    </tr>
+                    <tr>
+                      <td id="6" style="width: 60px; height: 60px">7</td>
+                      <td id="7" style="width: 60px; height: 60px">8</td>
+                      <td id="8" style="width: 60px; height: 60px">9</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </blockquote>
+            <div id="contestadas"></div>
+        <div  class="w3-container" id="ProgressBarr">
+            <div class="w3-light-grey">
+                <div id="ProgressBar" class="w3-container w3-green w3-center" style="width:0%"></div>
+            </div>
+            <br>
+        </div>                
+    </aside>
+</BODY>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+<script src="js/estilos.js"></script>
+</HTML>
